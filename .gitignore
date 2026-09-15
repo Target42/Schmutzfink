@@ -1,0 +1,19 @@
+# Diskussionsgrundlage, nicht Teil des Produkts
+idee/
+
+# Secrets und lokale Daten
+.env
+data/
+*.exe
+/bin/
+
+# Frontend
+web/node_modules/
+web/dist/
+internal/webui/dist/assets/
+
+# Go
+/vendor/
+
+# Offline-Pakete
+/dist/
