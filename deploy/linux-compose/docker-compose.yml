@@ -1,0 +1,54 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: schmutzfink
+      POSTGRES_PASSWORD: schmutzfink
+      POSTGRES_DB: schmutzfink
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U schmutzfink -d schmutzfink"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  app:
+    image: schmutzfink:offline
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8787:8787"
+    environment:
+      HTTP_ADDR: ":8787"
+      DATABASE_URL: postgres://schmutzfink:schmutzfink@postgres:5432/schmutzfink?sslmode=disable
+      ADMIN_USER: ${ADMIN_USER:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-CHANGE_ME}
+      STORAGE_BACKEND: ${STORAGE_BACKEND:-local}
+      STORAGE_DIR: ${STORAGE_DIR:-/app/data/objects}
+      S3_ENDPOINT: ${S3_ENDPOINT:-}
+      S3_BUCKET: ${S3_BUCKET:-}
+      S3_REGION: ${S3_REGION:-us-east-1}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-}
+      S3_PREFIX: ${S3_PREFIX:-}
+      THUMB_CACHE_DIR: ${THUMB_CACHE_DIR:-}
+      EMBEDDINGS: "1"
+      COOKIE_SECURE: ${COOKIE_SECURE:-auto}
+      TRUST_PROXY: ${TRUST_PROXY:-1}
+      LDAP_URL: ${LDAP_URL:-}
+      LDAP_DOMAIN: ${LDAP_DOMAIN:-}
+      LDAP_BIND_TEMPLATE: ${LDAP_BIND_TEMPLATE:-}
+      LDAP_STARTTLS: ${LDAP_STARTTLS:-0}
+      LDAP_INSECURE_SKIP_VERIFY: ${LDAP_INSECURE_SKIP_VERIFY:-0}
+      PROVISION_TOKEN: ${PROVISION_TOKEN:-}
+    volumes:
+      - appdata:/app/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  appdata:
