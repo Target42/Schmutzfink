@@ -1,0 +1,35 @@
+name: schmutzfink_mobile
+description: Schmutzfink Außendienst — Kamera und GPS direkt an die API.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  geolocator: ^14.0.2
+  http: ^1.5.0
+  http_parser: ^4.1.2
+  image_picker: ^1.2.0
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  exif: ^3.3.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  url_launcher: ^6.3.2
+  connectivity_plus: ^7.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo-mark.png
