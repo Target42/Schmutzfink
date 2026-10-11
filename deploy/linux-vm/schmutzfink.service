@@ -1,0 +1,19 @@
+[Unit]
+Description=Schmutzfink Graffiti-Inventar
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/schmutzfink
+EnvironmentFile=-/opt/schmutzfink/.env
+Environment=LD_LIBRARY_PATH=/opt/schmutzfink/vendor/onnxruntime
+ExecStart=/opt/schmutzfink/schmutzfink
+Restart=on-failure
+RestartSec=5
+User=schmutzfink
+Group=schmutzfink
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
