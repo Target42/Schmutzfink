@@ -1,0 +1,56 @@
+Beispielbilder von Wikimedia Commons (nur zum lokalen Testen).
+Lizenzen erfordern Namensnennung; bei ShareAlike gilt die jeweilige CC-Lizenz weiter.
+
+berlin-kreuzberg-feuerwache.jpg
+  Feuerwache Kreuzberg, Graffiti, Berlin, 2003
+  Foto: Fb78
+  Lizenz: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Feuerwache_Kreuzberg_Graffiti.JPG
+
+berlin-kreuzberg-wiener-strasse.jpg
+  Mural von Elle, 2018, Wiener Straße 42, Berlin-Kreuzberg
+  Foto: OTFW, Berlin
+  Lizenz: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Wandmalerei_Wiener_Str_42_(Kreuz)_Mural%26Elle%262018.jpg
+
+berlin-east-side-gallery.jpg
+  East Side Gallery, Berliner Mauer
+  Foto: Kapitel
+  Lizenz: CC0
+  https://commons.wikimedia.org/wiki/File:East_Side_Gallery_Mur_Berlinski.JPG
+
+berlin-east-side-gallery-bruderkuss.jpg
+  East Side Gallery: Bruderkuss (Breschnew / Honecker)
+  Foto: Tlrmq
+  Lizenz: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Berlin_Wall_East_Side_Gallery_1.JPG
+
+hamburg-rote-flora.jpg
+  Rote Flora, Sternschanze, Hamburg
+  Foto: Fred Romero
+  Lizenz: CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Hamburg_-_Rote_Flora_(4).jpg
+
+hamburg-oz-tags.jpg
+  Tags von Oz, Hamburg
+  Foto: pareto8020
+  Lizenz: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Oz-Hamburg-2.jpg
+
+london-shoreditch.jpg
+  Graffiti am Shoreditch Telephone Exchange, London
+  Foto: Matt Brown
+  Lizenz: CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Graffiti_on_Shoreditch_Telephone_Exchange_2024-08-14.jpg
+
+birmingham-moseley-streetart.jpg
+  Streetart, Alcester Road, Moseley
+  Foto: Elliott Brown
+  Lizenz: CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Alcester_Road,_Moseley_-_graffiti_street_art_(32738733201).jpg
+
+nyc-5pointz.jpg
+  Graffiti in 5 Pointz, Queens, New York
+  Foto: Aaron Harewood
+  Lizenz: CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:5pointz_graffiti.jpg
