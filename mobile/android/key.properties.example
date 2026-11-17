@@ -1,0 +1,6 @@
+# Copy to key.properties (same folder) and fill in. Never commit key.properties or the .jks file.
+storePassword=change-me
+keyPassword=change-me
+keyAlias=schmutzfink
+# Path relative to mobile/android/app/
+storeFile=../schmutzfink-upload.jks

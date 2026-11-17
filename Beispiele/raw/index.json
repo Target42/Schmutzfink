@@ -1,0 +1,105 @@
+[
+  {
+    "id": "wall_001",
+    "filename": "ellernbusch.jpg",
+    "location": {
+      "address": {
+        "street": "Am Ellernbusch 6",
+        "city": "Hemmingen",
+        "postal_code": "30966",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.327042001861734,
+        "longitude": 9.723562475023668
+      }
+    },
+    "metadata": {
+      "surface_type": "Brick",
+      "created_at": "2026-09-11T14:30:00Z",
+      "notes": "Gut einsehbare Ziegelwand"
+    }
+  },
+  {
+    "id": "wall_002",
+    "filename": "konradstraße.jpg",
+    "location": {
+      "address": {
+        "street": "Konradstraße ",
+        "city": "Hannover-Ricklingen",
+        "postal_code": "30457",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.33278016317531,
+        "longitude": 9.69957885973702
+      }
+    }
+  },
+  {
+    "id": "wall_003",
+    "filename": "Herninghof.jpg",
+    "location": {
+      "address": {
+        "street": "Herninghof",
+        "city": "Hannover-Ricklingen",
+        "postal_code": "30457",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.33551194219682,
+        "longitude": 9.696146233343264
+      }
+    }
+  }
+,
+  {
+    "id": "wall_004",
+    "filename": "Mühlenholzweg.jpg",
+    "location": {
+      "address": {
+        "street": "Mühlenholzweg",
+        "city": "Hannover-Ricklingen",
+        "postal_code": "30459",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.335679649144225,
+        "longitude": 9.71806256488195
+      }
+    }
+  },
+  {
+    "id": "wall_005",
+    "filename": "Kastanienallee.jpg",
+    "location": {
+      "address": {
+        "street": "Kastanienallee",
+        "city": "Neustadt am Rübenberge-Scharrel",
+        "postal_code": "31535 ",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.5287364157244,
+        "longitude": 9.558870401687772
+      }
+    }
+  },
+  {
+    "id": "wall_006",
+    "filename": "Danziger .jpg",
+    "location": {
+      "address": {
+        "street": "Danziger Str. 1 ",
+        "city": "Nienburg (Weser)-Langendamm",
+        "postal_code": "31582",
+        "country": "Germany"
+      },
+      "gps": {
+        "latitude": 52.61489361352973,
+        "longitude": 9.272174942049798
+      }
+    }
+  }
+
+]

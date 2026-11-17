@@ -1,0 +1,2 @@
+ALTER TABLE tenants
+    ADD COLUMN public_map BOOLEAN NOT NULL DEFAULT false;
